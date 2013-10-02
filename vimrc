@@ -1,13 +1,29 @@
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+Bundle 'mileszs/ack.vim'
+Bundle 'bufkill.vim'
+Bundle 'Raimondi/delimitMate'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-fugitive'
+Bundle 'bufexplorer'
+Bundle 'kien/ctrlp.vim'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'vim-ruby/vim-ruby'
+
 set showcmd
 set incsearch hlsearch
 
 " golang
 " Some Linux distributions set filetype in /etc/vimrc.
 " Clear filetype flags before changing runtimepath to force Vim to reload them.
-
 set runtimepath+=$GOROOT/misc/vim
-syntax on
 
+syntax on
 filetype plugin indent on
 set number
 set ruler
@@ -30,11 +46,6 @@ set tags+=tags;$HOME
 
 " auto reload rvmrc
 autocmd! bufwritepost .vimrc source %
-
-" Start nerd tree if no file is specified
-" autocmd vimenter * if !argc() | NERDTree | endif
-
-execute pathogen#infect()
 
 set background=light
 colorscheme solarized
