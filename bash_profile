@@ -27,8 +27,6 @@ alias gunstage="git reset HEAD"
 alias c='cd ..'
 alias la='ls -la'
 
-alias tm8="rvm wrapper system textmate; rvm use system"
-alias tm9="rvm wrapper 1.9.3 textmate; rvm use 1.9.3"
 alias r='rails'
 
 alias pg="ps -ef | grep"
