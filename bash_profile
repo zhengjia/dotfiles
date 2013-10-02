@@ -1,4 +1,4 @@
-export PATH=.:/usr/local/sbin:/Library/PostgreSQL/9.2/bin:/usr/local/bin:~/bin:$PATH
+export PATH=.:/usr/local/sbin:/usr/local/bin:~/bin:$PATH
 export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
 export AUTOFEATURE=true
 export HISTCONTROL=erasedups
@@ -63,5 +63,5 @@ export GOROOT=/usr/local/Cellar/go/1.1.1
 export PATH=$PATH:$GOPATH/bin
 
 if [[ -s /Users/zjia/.rvm/scripts/rvm ]] ; then source /Users/zjia/.rvm/scripts/rvm ; fi
-  
+
 export DYLD_LIBRARY_PATH="/usr/local/Cellar/mysql/5.5.19/lib"

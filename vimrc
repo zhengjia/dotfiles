@@ -51,7 +51,7 @@ set background=light
 colorscheme solarized
 
 let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\v[\/](\.git|.hg|.svn|coverage|log|tmp)$',
+  \ 'dir':  '\v[\/](\.git|.hg|.svn|coverage|log|tmp|vcr_cassettes)$',
   \ 'file': '\v[\/]\.(swp|so|png|jpg|jpeg|gif|svg)$',
   \ 'link': 'some_bad_symbolic_links',
   \ }
