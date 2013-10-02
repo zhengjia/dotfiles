@@ -8,9 +8,7 @@ set incsearch hlsearch
 set runtimepath+=$GOROOT/misc/vim
 syntax on
 
-filetype on
-filetype indent on
-filetype plugin on
+filetype plugin indent on
 set number
 set ruler
 " https://github.com/mxcl/homebrew/issues/19942
