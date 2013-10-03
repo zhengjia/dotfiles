@@ -65,3 +65,4 @@ export PATH=$PATH:$GOPATH/bin
 if [[ -s /Users/zjia/.rvm/scripts/rvm ]] ; then source /Users/zjia/.rvm/scripts/rvm ; fi
 
 export DYLD_LIBRARY_PATH="/usr/local/Cellar/mysql/5.5.19/lib"
+[[ -r ~/.bashrc ]] && source ~/.bashrc
