@@ -3,6 +3,7 @@ export AUTOFEATURE=true
 export HISTCONTROL=erasedups
 export HISTSIZE=10000
 export GREP_OPTIONS='--color=auto'
+export EDITOR=vim
 shopt -s histappend
 
 alias r='rails'
@@ -16,7 +17,7 @@ alias gc='git commit -a -m'
 alias gs='git status'
 alias gpush='git push'
 alias gpull='git pull'
-alias ga='git add -all'
+alias ga='git add --all'
 alias gd='git diff'
 alias gco='git checkout'
 alias greset='git reset --hard HEAD'
