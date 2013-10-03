@@ -27,8 +27,6 @@ syntax on
 filetype plugin indent on
 set number
 set ruler
-" https://github.com/mxcl/homebrew/issues/19942
-set regexpengine=1
 
 set expandtab
 set shiftwidth=2

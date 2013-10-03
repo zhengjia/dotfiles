@@ -5,7 +5,6 @@
 	email = jiazheng@live.com
 [core]
 	excludesfile = /Users/zjia/.gitignore
-	editor = mate -w
 	pager = less -r
 [color]
 	branch = auto
