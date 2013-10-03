@@ -1,5 +1,4 @@
 export PATH=.:/usr/local/sbin:/usr/local/bin:~/bin:$PATH
-export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
 export AUTOFEATURE=true
 export HISTCONTROL=erasedups
 export HISTSIZE=10000
@@ -17,7 +16,7 @@ alias gc='git commit -a -m'
 alias gs='git status'
 alias gpush='git push'
 alias gpull='git pull'
-alias ga='git add'
+alias ga='git add -all'
 alias gd='git diff'
 alias gco='git checkout'
 alias greset='git reset --hard HEAD'
@@ -64,5 +63,4 @@ export PATH=$PATH:$GOPATH/bin
 
 if [[ -s /Users/zjia/.rvm/scripts/rvm ]] ; then source /Users/zjia/.rvm/scripts/rvm ; fi
 
-export DYLD_LIBRARY_PATH="/usr/local/Cellar/mysql/5.5.19/lib"
 [[ -r ~/.bashrc ]] && source ~/.bashrc
