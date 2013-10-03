@@ -10,9 +10,9 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-fugitive'
-Bundle 'bufexplorer'
 Bundle 'kien/ctrlp.vim'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'vim-scripts/bufexplorer.zip'
 Bundle 'vim-ruby/vim-ruby'
 
 set showcmd
