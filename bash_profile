@@ -63,4 +63,5 @@ export PATH=$PATH:$GOPATH/bin
 
 if [[ -s /Users/zjia/.rvm/scripts/rvm ]] ; then source /Users/zjia/.rvm/scripts/rvm ; fi
 
+# in 10.8 bashrc isn't sourced
 [[ -r ~/.bashrc ]] && source ~/.bashrc
