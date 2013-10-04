@@ -59,7 +59,7 @@ function cdff { cd "`ff $@`"; };
 export MANPATH=/usr/local/Cellar/erlang/R14B03/man
 export NODE_PATH=/usr/local/lib/node_modules
 export GOPATH=$HOME/gocode
-export GOROOT=/usr/local/Cellar/go/1.1.1
+export GOROOT=/usr/local/Cellar/go/1.1.2/libexec
 export PATH=$PATH:$GOPATH/bin
 
 if [[ -s /Users/zjia/.rvm/scripts/rvm ]] ; then source /Users/zjia/.rvm/scripts/rvm ; fi
