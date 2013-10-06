@@ -1,5 +1,5 @@
 dir=~/dotfiles
-files="bashrc bash_profile vimrc vim gitignore ackrc gitconfig tmux.conf"
+files="bashrc bash_profile vimrc vim gitignore ackrc gitconfig tmux.conf ctags"
 
 for file in $files; do
   if [[ ! -L ~/.$file ]]; then
