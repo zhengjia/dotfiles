@@ -53,6 +53,7 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\v[\/]\.(swp|so|png|jpg|jpeg|gif|svg)$',
   \ 'link': 'some_bad_symbolic_links',
   \ }
+let g:ctrlp_max_files = 0
 
 au FileType go map <leader>r :!go run %<CR>
 au FileType ruby map <leader>r :!ruby %<CR>
