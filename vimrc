@@ -80,3 +80,8 @@ set foldmethod=indent   "fold based on indent
 set foldnestmax=10      "deepest fold is 10 levels
 set foldlevelstart=99
 set foldlevel=1
+
+" ack
+noremap <Leader>a :Ack<space>
+" ack for current word (based on cursor)
+noremap <Leader>A :Ack<space><C-r><C-w>
