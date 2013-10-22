@@ -23,6 +23,7 @@ alias gco='git checkout'
 alias greset='git reset --hard HEAD'
 alias ggraph="git log --graph --pretty=format:'%Cred%h%Creset %aN -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 alias gunstage="git reset HEAD"
+alias gdeletebranch='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 
 alias c='cd ..'
 alias la='ls -la'
