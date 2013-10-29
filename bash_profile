@@ -27,6 +27,7 @@ alias gdeletebranch='git branch --merged | grep -v "\*" | xargs -n 1 git branch 
 
 alias c='cd ..'
 alias la='ls -la'
+alias ls="ls -GFp"
 
 alias r='rails'
 
@@ -67,3 +68,6 @@ if [[ -s /Users/zjia/.rvm/scripts/rvm ]] ; then source /Users/zjia/.rvm/scripts/
 
 # in 10.8 bashrc isn't sourced
 [[ -r ~/.bashrc ]] && source ~/.bashrc
+
+# needed for bazaar to work
+export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
