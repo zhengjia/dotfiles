@@ -15,6 +15,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'vim-scripts/bufexplorer.zip'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'majutsushi/tagbar'
+Bundle 'rking/ag.vim'
 
 set showcmd
 set incsearch hlsearch
@@ -83,9 +84,9 @@ set foldlevelstart=99
 set foldlevel=1
 
 " ack
-noremap <Leader>a :Ack<space>
+noremap <Leader>a :Ag<space>
 " ack for current word (based on cursor)
-noremap <Leader>A :Ack<space><C-r><C-w>
+noremap <Leader>A :Ag<space><C-r><C-w>
 
 nmap <F8> :TagbarToggle<CR>
 let g:tagbar_type_go = {
