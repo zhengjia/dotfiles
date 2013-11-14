@@ -17,3 +17,4 @@
 --ignore-dir=doc
 --ignore-dir=cache
 --ignore-file=match:tags
+--ignore-file=match:.csv
