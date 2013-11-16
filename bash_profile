@@ -39,6 +39,7 @@ alias pp="bundle exec pry -r ./config/environment"
 # alias vi='/Applications/MacVim.app/Contents/MacOS/Vim'
 
 alias gitshort='git log --pretty=oneline --abbrev-commit'
+alias pgstart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
 
 rake() {
   if [[ -e ./Gemfile ]] && which bundle; then
