@@ -21,12 +21,16 @@ set showcmd
 set incsearch hlsearch
 
 " golang
+" format go code
+autocmd FileType go autocmd BufWritePre <buffer> Fmt
 " Some Linux distributions set filetype in /etc/vimrc.
 " Clear filetype flags before changing runtimepath to force Vim to reload them.
+filetype off
+filetype plugin indent off
 set runtimepath+=$GOROOT/misc/vim
-
-syntax on
 filetype plugin indent on
+syntax on
+
 set number
 set ruler
 
@@ -122,3 +126,4 @@ nmap <silent> <S-Up> :wincmd k<CR>
 nmap <silent> <S-Down> :wincmd j<CR>
 nmap <silent> <S-Left> :wincmd h<CR>
 nmap <silent> <S-Right> :wincmd l<CR>
+
