@@ -66,7 +66,7 @@ au FileType ruby map <leader>r :!ruby %<CR>
 map <Leader>rt :!ctags --exclude=log --exclude=tmp --exclude=coverage -R *<CR><CR>
 map <Leader>rtt :!ctags ---exclude=log --exclude=tmp --exclude=coverage -R * -L .srclist<CR><CR>
 nmap <C-n> :NERDTreeToggle<CR>
-nmap <C-S-r> :NERDTreeFind<CR>
+" nmap <C-S-r> :NERDTreeFind<CR>
 
 " Strip trailing whitespace
 function! <SID>StripTrailingWhitespaces()
