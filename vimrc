@@ -28,6 +28,7 @@ autocmd FileType go autocmd BufWritePre <buffer> Fmt
 filetype off
 filetype plugin indent off
 set runtimepath+=$GOROOT/misc/vim
+set runtimepath+=/Users/zjia/opensource/rust/src/etc/vim
 filetype plugin indent on
 syntax on
 
