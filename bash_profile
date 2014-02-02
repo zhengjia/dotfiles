@@ -1,4 +1,4 @@
-export PATH=.:/usr/local/bin:~/go_appengine:$PATH
+export PATH=.:/usr/local/bin:~/go_appengine:/usr/local/share/npm/bin:$PATH
 export AUTOFEATURE=true
 export HISTCONTROL=erasedups
 export HISTSIZE=10000
