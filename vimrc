@@ -22,7 +22,8 @@ set incsearch hlsearch
 
 " golang
 " format go code
-let g:gofmt_command="goimports"
+" goimports is too sloooooow
+" let g:gofmt_command="goimports"
 autocmd FileType go autocmd BufWritePre <buffer> Fmt
 " Some Linux distributions set filetype in /etc/vimrc.
 " Clear filetype flags before changing runtimepath to force Vim to reload them.
