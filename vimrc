@@ -16,6 +16,7 @@ Bundle 'vim-scripts/bufexplorer.zip'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'majutsushi/tagbar'
 Bundle 'rking/ag.vim'
+Bundle 'Lokaltog/vim-easymotion'
 
 set showcmd
 set incsearch hlsearch
