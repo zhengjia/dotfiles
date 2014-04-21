@@ -20,6 +20,8 @@ alias gpull='git pull'
 alias ga='git add --all'
 alias gd='git diff'
 alias gco='git checkout'
+
+alias ghistory='git rev-list --all | xargs git grep'
 alias greset='git reset --hard HEAD'
 alias ggraph="git log --graph --pretty=format:'%Cred%h%Creset %aN -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 alias gunstage="git reset HEAD"
