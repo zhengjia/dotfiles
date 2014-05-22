@@ -1,9 +1,3 @@
-export PATH=.:/usr/local/bin:~/go_appengine:/usr/local/share/npm/bin:$PATH
-export AUTOFEATURE=true
-export HISTCONTROL=erasedups
-export HISTSIZE=10000
-export GREP_OPTIONS='--color=auto'
-export EDITOR=vim
 shopt -s histappend
 
 alias r='rails'
@@ -61,16 +55,10 @@ function ff { osascript -e 'tell application "Finder"'\
  -e 'end if' -e 'end tell'; };\
 function cdff { cd "`ff $@`"; };
 
-export MANPATH=/usr/local/Cellar/erlang/R14B03/man
-export NODE_PATH=/usr/local/lib/node_modules
-export GOPATH=$HOME/gocode
-export GOROOT=/usr/local/Cellar/go/1.2/libexec
-export PATH=$PATH:$GOPATH/bin
 
 if [[ -s /Users/zjia/.rvm/scripts/rvm ]] ; then source /Users/zjia/.rvm/scripts/rvm ; fi
 
 # in 10.8 bashrc isn't sourced
 [[ -r ~/.bashrc ]] && source ~/.bashrc
 
-# needed for bazaar to work
-export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
+[[ -r ~/.bash_env ]] && source ~/.bash_env
