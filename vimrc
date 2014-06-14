@@ -17,6 +17,8 @@ Bundle 'vim-ruby/vim-ruby'
 Bundle 'majutsushi/tagbar'
 Bundle 'rking/ag.vim'
 Bundle 'Lokaltog/vim-easymotion'
+Bundle 'lukerandall/haskellmode-vim'
+Bundle 'scrooloose/syntastic'
 
 set showcmd
 set incsearch hlsearch
@@ -131,3 +133,8 @@ nmap <silent> <S-Down> :wincmd j<CR>
 nmap <silent> <S-Left> :wincmd h<CR>
 nmap <silent> <S-Right> :wincmd l<CR>
 
+" haskell
+" haskellmode-vim
+set cmdheight=1
+au BufEnter *.hs compiler ghc
+let g:haddock_browser="open"
