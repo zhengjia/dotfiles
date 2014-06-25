@@ -25,3 +25,10 @@ if [[ -s /Users/zjia/.rvm/scripts/rvm ]] ; then source /Users/zjia/.rvm/scripts/
 
 [[ -r ~/.bash_env ]] && source ~/.bash_env
 [[ -r ~/.bash_alias ]] && source ~/.bash_alias
+
+export HISTSIZE=100000                   # big big history
+export HISTFILESIZE=100000               # big big history
+shopt -s histappend                      # append to history, don't overwrite it
+
+# Save and reload the history after each command finishes
+export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
