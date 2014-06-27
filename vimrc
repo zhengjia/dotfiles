@@ -139,3 +139,7 @@ nmap <silent> <S-Right> :wincmd l<CR>
 set cmdheight=1
 au BufEnter *.hs compiler ghc
 let g:haddock_browser="open"
+
+let g:syntastic_mode_map={ 'mode': 'active',
+                     \ 'active_filetypes': [],
+                     \ 'passive_filetypes': ['html'] }
