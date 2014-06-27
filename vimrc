@@ -20,6 +20,8 @@ Bundle 'Lokaltog/vim-easymotion'
 Bundle 'lukerandall/haskellmode-vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-unimpaired'
+Bundle 'tpope/vim-surround'
+Bundle 'bling/vim-airline'
 
 set showcmd
 set incsearch hlsearch
