@@ -145,3 +145,9 @@ let g:haddock_browser="open"
 let g:syntastic_mode_map={ 'mode': 'active',
                      \ 'active_filetypes': [],
                      \ 'passive_filetypes': ['html'] }
+" disable fileencoding, fileformat
+" help airline, customization
+let g:airline_section_y = ""
+" disable whitespace
+let g:airline_section_warning = "syntastic"
+
