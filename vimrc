@@ -25,7 +25,7 @@ Bundle 'bling/vim-airline'
 
 set showcmd
 set incsearch hlsearch
-
+set nostartofline
 " golang
 " format go code
 " goimports is too sloooooow
