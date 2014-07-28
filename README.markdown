@@ -4,6 +4,7 @@ brew install
 - the_silver_searcher(optional)
 - ctags
 - reattach-to-user-namespace
+- bash_completion
 - go get -u github.com/jstemmer/gotags
 
 Vundle
