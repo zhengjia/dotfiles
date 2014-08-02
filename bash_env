@@ -1,4 +1,4 @@
-export PATH=.:/usr/local/bin:~/go_appengine:/usr/local/share/npm/bin:$HOME/.cabal/bin:~/android-sdk-macosx/platform-tools:~/android-sdk-macosx/tools:$PATH
+export PATH=.:/usr/local/bin:~/go_appengine:/usr/local/share/npm/bin:$HOME/.cabal/bin:~/android-sdk-macosx/platform-tools:~/android-sdk-macosx/tools:$GOPATH/bin:$PATH
 export AUTOFEATURE=true
 
 # http://unix.stackexchange.com/questions/1288/preserve-bash-history-in-multiple-terminal-windows#3055135
@@ -13,6 +13,5 @@ export MANPATH=/usr/local/Cellar/erlang/R14B03/man
 export NODE_PATH=/usr/local/lib/node_modules
 export GOPATH=$HOME/gocode
 export GOROOT=/usr/local/Cellar/go/1.3/libexec
-export PATH=$PATH:$GOPATH/bin
 # needed for bazaar to work
 export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
