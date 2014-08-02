@@ -2,7 +2,6 @@
 --smart-case
 --follow
 
-
 --type-add=md=.markdown,.mdown
 --type-add=ruby=.haml,Gemfile,.gemspec,.ru,.haml,.builder
 --type-add=js=.ejs
@@ -23,6 +22,7 @@
 --go
 --md
 
+--ignore-dir=.vendor
 --ignore-dir=tmp
 --ignore-dir=coverage
 --ignore-dir=flash
