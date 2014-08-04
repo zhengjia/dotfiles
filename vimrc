@@ -156,6 +156,7 @@ let g:syntastic_mode_map={ 'mode': 'active',
 " help airline, customization
 let g:airline_section_x = ""
 let g:airline_section_y = ""
+let g:airline_right_sep=''
 " disable whitespace
 let g:airline_section_warning = "syntastic"
 
