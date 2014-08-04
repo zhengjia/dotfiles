@@ -1,7 +1,10 @@
 brew install
 ------------
 - ack
+
 - the_silver_searcher(optional)
+brew install ag
+
 - ctags
 - reattach-to-user-namespace
 - bash_completion

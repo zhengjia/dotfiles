@@ -69,6 +69,12 @@ let g:ctrlp_custom_ignore = {
   \ 'link': 'some_bad_symbolic_links',
   \ }
 let g:ctrlp_max_files = 0
+if executable('ag')
+  " use ag over grep
+  set grepprg=ag\ --nogroup\ --nocolor
+  " respects .gitignore
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+endif
 
 au FileType go map <leader>r :!go run %<CR>
 au FileType ruby map <leader>r :!ruby %<CR>
