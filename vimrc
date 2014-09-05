@@ -22,6 +22,8 @@ Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'tpope/vim-surround'
 Bundle 'bling/vim-airline'
+Bundle 'Blackrush/vim-gocode'
+Bundle 'dgryski/vim-godef'
 
 set showcmd
 set incsearch hlsearch
@@ -160,3 +162,4 @@ let g:airline_right_sep=''
 " disable whitespace
 let g:airline_section_warning = "syntastic"
 
+let g:godef_split=0
