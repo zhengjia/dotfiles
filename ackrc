@@ -3,7 +3,7 @@
 --follow
 
 --type-add=md=.markdown,.mdown
---type-add=ruby=.haml,Gemfile,.gemspec,.ru,.haml,.builder
+--type-add=ruby=.haml,Gemfile,.gemspec,.ru,.haml,.builder,.jbuilder
 --type-add=js=.ejs
 --type-add=go=.gtpl
 
