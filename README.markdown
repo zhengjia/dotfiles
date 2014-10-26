@@ -16,4 +16,6 @@ Vundle
 https://github.com/gmarik/Vundle.vim
 In vim, run :BundleInstall
 
-
+tmux
+----
+https://github.com/tmux-plugins/tmux-resurrect

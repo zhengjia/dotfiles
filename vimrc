@@ -24,6 +24,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'bling/vim-airline'
 Bundle 'Blackrush/vim-gocode'
 Bundle 'dgryski/vim-godef'
+Bundle 'tpope/vim-obsession'
 
 set showcmd
 set incsearch hlsearch
