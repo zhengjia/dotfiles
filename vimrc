@@ -25,6 +25,7 @@ Bundle 'bling/vim-airline'
 Bundle 'Blackrush/vim-gocode'
 Bundle 'dgryski/vim-godef'
 Bundle 'tpope/vim-obsession'
+Bundle 'vim-scripts/closetag.vim'
 
 set showcmd
 set incsearch hlsearch
