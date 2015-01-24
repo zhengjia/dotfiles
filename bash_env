@@ -1,4 +1,4 @@
-export PATH=.:./bin:/usr/local/bin:~/go_appengine:/usr/local/share/npm/bin:$HOME/.cabal/bin:~/android-sdk-macosx/platform-tools:~/android-sdk-macosx/tools:$PATH
+export PATH=.:/usr/local/bin:~/go_appengine:/usr/local/share/npm/bin:$HOME/.cabal/bin:~/android-sdk-macosx/platform-tools:~/android-sdk-macosx/tools:$PATH
 export AUTOFEATURE=true
 
 # http://unix.stackexchange.com/questions/1288/preserve-bash-history-in-multiple-terminal-windows#3055135
