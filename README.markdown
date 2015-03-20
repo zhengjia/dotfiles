@@ -11,6 +11,10 @@ brew install ag
 - go get -u github.com/jstemmer/gotags
 - go get -v code.google.com/p/rog-go/exp/cmd/godef
 
+iTerm
+-----
+Install color scheme: https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized
+
 Vundle
 ------
 https://github.com/gmarik/Vundle.vim
