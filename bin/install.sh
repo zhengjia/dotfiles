@@ -3,7 +3,7 @@ files="bashrc bash_profile bash_env bash_alias vimrc vim gitignore ackrc gitconf
 
 for file in $files; do
   if [[ ! -L ~/.$file ]]; then
-    ln -s $dir/$file ~/.$file
+    ln -fs $dir/$file ~/.$file
   fi
 done
 
