@@ -7,7 +7,7 @@ brew install ag
 
 - ctags
 - reattach-to-user-namespace
-- bash_completion
+- bash-completion
 - go get -u github.com/jstemmer/gotags
 - go get -v code.google.com/p/rog-go/exp/cmd/godef
 
