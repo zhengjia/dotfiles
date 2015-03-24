@@ -16,3 +16,6 @@
 	user = zhengjia
 [grep]
 	lineNumber = true
+[alias]
+  br = branch
+  co = checkout
