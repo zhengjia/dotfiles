@@ -165,3 +165,6 @@ let g:airline_right_sep=''
 let g:airline_section_warning = "syntastic"
 
 let g:godef_split=0
+
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
