@@ -1,31 +1,37 @@
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set nocompatible              " be iMproved, required
+filetype off                  " required
 
-Bundle 'gmarik/vundle'
-Bundle 'mileszs/ack.vim'
-Bundle 'bufkill.vim'
-Bundle 'Raimondi/delimitMate'
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'tpope/vim-endwise'
-Bundle 'tpope/vim-rails'
-Bundle 'tpope/vim-fugitive'
-Bundle 'kien/ctrlp.vim'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'vim-scripts/bufexplorer.zip'
-Bundle 'vim-ruby/vim-ruby'
-Bundle 'majutsushi/tagbar'
-Bundle 'rking/ag.vim'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'lukerandall/haskellmode-vim'
-Bundle 'scrooloose/syntastic'
-Bundle 'tpope/vim-unimpaired'
-Bundle 'tpope/vim-surround'
-Bundle 'bling/vim-airline'
-Bundle 'Blackrush/vim-gocode'
-Bundle 'dgryski/vim-godef'
-Bundle 'tpope/vim-obsession'
-Bundle 'vim-scripts/closetag.vim'
+set rtp+=~/.vim/bundle/Vundle.vim/
+call vundle#begin()
+
+Plugin 'gmarik/Vundle.vim'
+Plugin 'mileszs/ack.vim'
+Plugin 'bufkill.vim'
+Plugin 'Raimondi/delimitMate'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'tpope/vim-endwise'
+Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-fugitive'
+Plugin 'kien/ctrlp.vim'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'vim-scripts/bufexplorer.zip'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'majutsushi/tagbar'
+Plugin 'rking/ag.vim'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'lukerandall/haskellmode-vim'
+Plugin 'scrooloose/syntastic'
+Plugin 'tpope/vim-unimpaired'
+Plugin 'tpope/vim-surround'
+Plugin 'bling/vim-airline'
+Plugin 'tpope/vim-obsession'
+Plugin 'vim-scripts/closetag.vim'
+Plugin 'fatih/vim-go'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
 
 set showcmd
 set incsearch hlsearch
@@ -39,7 +45,6 @@ autocmd FileType go autocmd BufWritePre <buffer> Fmt
 " Clear filetype flags before changing runtimepath to force Vim to reload them.
 filetype off
 filetype plugin indent off
-set runtimepath+=$GOROOT/misc/vim
 set runtimepath+=/Users/zjia/opensource/rust/src/etc/vim
 filetype plugin indent on
 syntax on
@@ -82,6 +87,7 @@ endif
 
 au FileType go map <leader>r :!go run %<CR>
 au FileType ruby map <leader>r :!ruby %<CR>
+map <Leader>rtg :!gotags -R -f tags .<CR><CR>
 map <Leader>rt :!ctags --exclude=log --exclude=tmp --exclude=coverage -R *<CR><CR>
 map <Leader>rtt :!ctags ---exclude=log --exclude=tmp --exclude=coverage -R * -L .srclist<CR><CR>
 nmap <C-n> :NERDTreeToggle<CR>
