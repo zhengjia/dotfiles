@@ -30,7 +30,8 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
 
-ulimit -n 32768
+ulimit -n 65536
+ulimit -u 2048
 
 # The next line updates PATH for the Google Cloud SDK.
 source '/Users/zjia/google-cloud-sdk/path.bash.inc'
