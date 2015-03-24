@@ -2,7 +2,6 @@ alias r='rails'
 alias be='bundle exec'
 alias rc='r c'
 alias rs='rails s'
-alias rsd='rails s --debugger'
 
 # Git
 alias gc='git commit -a -m'
@@ -18,19 +17,16 @@ alias greset='git reset --hard HEAD'
 alias ggraph="git log --graph --pretty=format:'%Cred%h%Creset %aN -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 alias gunstage="git reset HEAD"
 alias gdeletebranch='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
+alias gitshort='git log --pretty=oneline --abbrev-commit'
+alias gpushup="git push --set-upstream origin" # plus name_of_branch
 
 alias c='cd ..'
 alias la='ls -la'
 alias ls="ls -GFp"
 
-alias r='rails'
-
 alias pg="ps -ef | grep"
 alias openport='sudo lsof -i -P | grep -i "listen"'
-alias gpushup="git push --set-upstream origin" # plus name_of_branch
 alias pp="bundle exec pry -r ./config/environment"
-
-alias gitshort='git log --pretty=oneline --abbrev-commit'
 alias pgstart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
 
 alias goapp=~/google-cloud-sdk/platform/google_appengine/goapp
