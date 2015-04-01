@@ -16,3 +16,5 @@ export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 # needed for bazaar to work
 export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
+# disable editing commit message when merging
+export GIT_MERGE_AUTOEDIT=no
