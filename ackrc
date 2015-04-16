@@ -33,5 +33,5 @@
 --ignore-dir=log
 --ignore-dir=doc
 --ignore-dir=cache
---ignore-file=match:tags
---ignore-file=match:.csv
+--ignore-file=is:tags
+--ignore-file=ext:csv
