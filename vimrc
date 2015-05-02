@@ -28,6 +28,8 @@ Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-obsession'
 Plugin 'vim-scripts/closetag.vim'
 Plugin 'fatih/vim-go'
+Plugin 'cespare/vim-toml'
+Plugin 'shime/vim-livedown'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
