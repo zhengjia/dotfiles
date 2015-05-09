@@ -69,6 +69,8 @@ set runtimepath^=~/.vim/ctrlp.vim
 
 set tags+=tags;$HOME
 
+runtime macros/matchit.vim
+
 " auto reload rvmrc
 autocmd! bufwritepost .vimrc source %
 
