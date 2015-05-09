@@ -30,6 +30,7 @@ Plugin 'fatih/vim-go'
 Plugin 'cespare/vim-toml'
 Plugin 'shime/vim-livedown'
 Plugin 'Yggdroot/indentLine'
+Plugin 'vim-scripts/JavaScript-Indent'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
