@@ -30,6 +30,7 @@ Plugin 'tpope/vim-ragtag'
 Plugin 'fatih/vim-go'
 Plugin 'cespare/vim-toml'
 Plugin 'shime/vim-livedown'
+Plugin 'Yggdroot/indentLine'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -173,6 +174,9 @@ let g:airline_right_sep=''
 let g:airline_section_warning = "syntastic"
 
 let g:godef_split=0
+
+" IndentLinesToggle
+let g:indentLine_enabled = 0
 
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 
