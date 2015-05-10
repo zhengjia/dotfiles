@@ -33,7 +33,7 @@ Plugin 'shime/vim-livedown'
 Plugin 'pangloss/vim-javascript'
 Plugin 'Yggdroot/indentLine'
 Plugin 'rust-lang/rust.vim'
-
+Plugin 'terryma/vim-multiple-cursors'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -153,6 +153,14 @@ let delimitMate_smart_quotes = 1
 let g:syntastic_mode_map={ 'mode': 'active',
                      \ 'active_filetypes': [],
                      \ 'passive_filetypes': ['html'] }
+
+" vim-multiple-cursors
+let g:multi_cursor_use_default_mapping=0
+let g:multi_cursor_start_key = 'F6'
+let g:multi_cursor_next_key = 'n'
+let g:multi_cursor_prev_key = 'p'
+let g:multi_cursor_skip_key = 's'
+let g:multi_cursor_quit_key = '<Esc>'
 
 
 " === KEY MAPPING ===
