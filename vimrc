@@ -158,15 +158,14 @@ let g:syntastic_mode_map={ 'mode': 'active',
 
 " vim-multiple-cursors
 let g:multi_cursor_use_default_mapping=0
-let g:multi_cursor_start_key = 'F6'
-let g:multi_cursor_next_key = 'n'
-let g:multi_cursor_prev_key = 'p'
-let g:multi_cursor_skip_key = 's'
+let g:multi_cursor_next_key='<C-n>'
+let g:multi_cursor_prev_key='<C-p>'
+let g:multi_cursor_skip_key = '<C-s>'
 let g:multi_cursor_quit_key = '<Esc>'
 
 " ultisnips
-let g:UltiSnipsListSnippets="<c-l>"
-let g:UltiSnipsJumpForwardTrigger="<c-f>"
+let g:UltiSnipsListSnippets="<C-l>"
+let g:UltiSnipsJumpForwardTrigger="<C-f>"
 
 " === KEY MAPPING ===
 map <Leader>rtg :!gotags -R -f tags .<CR><CR>
