@@ -34,6 +34,8 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'Yggdroot/indentLine'
 Plugin 'rust-lang/rust.vim'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -162,6 +164,9 @@ let g:multi_cursor_prev_key = 'p'
 let g:multi_cursor_skip_key = 's'
 let g:multi_cursor_quit_key = '<Esc>'
 
+" ultisnips
+let g:UltiSnipsListSnippets="<c-l>"
+let g:UltiSnipsJumpForwardTrigger="<c-f>"
 
 " === KEY MAPPING ===
 map <Leader>rtg :!gotags -R -f tags .<CR><CR>
