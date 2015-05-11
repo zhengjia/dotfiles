@@ -170,9 +170,7 @@ let g:UltiSnipsJumpForwardTrigger="<C-f>"
 " === KEY MAPPING ===
 map <Leader>rtg :!gotags -R -f tags .<CR><CR>
 map <Leader>rt :!ctags --exclude=log --exclude=tmp --exclude=coverage -R *<CR><CR>
-map <Leader>rtt :!ctags ---exclude=log --exclude=tmp --exclude=coverage -R * -L .srclist<CR><CR>
 nmap <C-n> :NERDTreeToggle<CR>
-nmap <S-r> :NERDTreeFind<CR>
 
 " switch splits
 nmap <silent> <S-Up> :wincmd k<CR>
