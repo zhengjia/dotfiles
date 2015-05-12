@@ -163,6 +163,10 @@ let g:multi_cursor_prev_key='<S-p>'
 let g:multi_cursor_skip_key='<S-x>'
 let g:multi_cursor_quit_key='<Esc>'
 
+" nerdtree
+nmap <C-n> :NERDTreeToggle<CR>
+nmap <S-r> :NERDTreeFind<CR>
+
 " ultisnips
 let g:UltiSnipsListSnippets="<C-l>"
 let g:UltiSnipsJumpForwardTrigger="<C-f>"
@@ -170,7 +174,6 @@ let g:UltiSnipsJumpForwardTrigger="<C-f>"
 " === KEY MAPPING ===
 map <Leader>rtg :!gotags -R -f tags .<CR><CR>
 map <Leader>rt :!ctags --exclude=log --exclude=tmp --exclude=coverage -R *<CR><CR>
-nmap <C-n> :NERDTreeToggle<CR>
 
 " switch splits
 nmap <silent> <S-Up> :wincmd k<CR>
