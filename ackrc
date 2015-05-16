@@ -20,6 +20,7 @@
 --lisp
 --json
 --go
+--rust
 --md
 
 --ignore-dir=.vendor
