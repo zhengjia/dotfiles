@@ -175,7 +175,7 @@ let g:UltiSnipsJumpForwardTrigger="<C-f>"
 
 " === KEY MAPPING ===
 map <Leader>rtg :!gotags -R -f tags .<CR><CR>
-map <Leader>rt :!ctags --exclude=log --exclude=tmp --exclude=coverage -R *<CR><CR>
+map <Leader>rt :!ctags --exclude=log --exclude=tmp --exclude=coverage --exclude=*.min.js --exclude=node_modules -R *<CR><CR>
 
 " switch splits
 nmap <silent> <S-Up> :wincmd k<CR>

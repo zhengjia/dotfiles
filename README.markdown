@@ -25,3 +25,8 @@ https://github.com/tmux-plugins/tmux-resurrect
 patch
 -----
 ragtag: add javascript to https://github.com/tpope/vim-ragtag/blob/bef689a4d5ceb10bbe1b5aa216394bc3197a1258/plugin/ragtag.vim#L28
+
+ctags
+-----
+debug: ctags -V OPTIONS
+rust: https://github.com/rust-lang/rust/blob/master/src/etc/ctags.rust
