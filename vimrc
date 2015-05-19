@@ -175,6 +175,7 @@ let g:UltiSnipsJumpForwardTrigger="<C-f>"
 
 " === KEY MAPPING ===
 map <Leader>rtg :!gotags -R -f tags .<CR><CR>
+autocmd FileType go map <buffer> <Leader>rt :!gotags -R=true -f=tags *<CR><CR>
 map <Leader>rt :!ctags --exclude=log --exclude=tmp --exclude=coverage --exclude=*.min.js --exclude=node_modules -R *<CR><CR>
 
 " switch splits
