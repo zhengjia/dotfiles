@@ -22,6 +22,7 @@
 --go
 --rust
 --md
+--asm
 
 --ignore-dir=.vendor
 --ignore-dir=tmp
