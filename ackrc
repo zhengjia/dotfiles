@@ -23,6 +23,7 @@
 --rust
 --md
 --asm
+--haskell
 
 --ignore-dir=.vendor
 --ignore-dir=tmp
