@@ -22,7 +22,6 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'majutsushi/tagbar'
 Plugin 'rking/ag.vim'
 Plugin 'Lokaltog/vim-easymotion'
-Plugin 'lukerandall/haskellmode-vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-surround'
@@ -230,11 +229,4 @@ endfunction
 " let g:gofmt_command="goimports"
 " gd opens in same window
 let g:godef_split=0
-
-" haskell
-" haskellmode-vim
-set cmdheight=1
-au BufEnter *.hs compiler ghc
-let g:haddock_browser="open"
-
 
