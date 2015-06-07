@@ -24,6 +24,7 @@
 --md
 --asm
 --haskell
+--cc
 
 --ignore-dir=.vendor
 --ignore-dir=tmp
